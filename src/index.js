@@ -82,7 +82,7 @@ io.on('connection', (socket) => {
 
 
 const port = process.env.PORT || 3000
-server.listen(3000, () => console.log("server is up on port " + port))
+server.listen(port, () => console.log("server is up on port " + port))
 
 
 
